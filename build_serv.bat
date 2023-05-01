@@ -1,2 +1,2 @@
-C:\Users\днс\.cargo\bin\cargo build
+cargo build
 .\target\debug\pract_rust
