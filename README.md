@@ -4,7 +4,7 @@
 
 Внешний вид главного окна в браузере:
 
-![image](https://user-images.githubusercontent.com/10297748/235445992-8b180513-6e86-4b8f-ba00-16e26ac4bb6b.png)
+![image](https://user-images.githubusercontent.com/10297748/235742584-35ac3456-08e4-4d32-a0a2-4dd8ebf96fae.png)
 
 Пример гарантированно работает при установленном компилляторе Rust (из файла rustup-init.exe, скач. на сайте https://www.rust-lang.org/tools/install) в каталог с профилем пользователя: C:\Users\[user]\.cargo
 
