@@ -50,6 +50,7 @@ fn main() {
 					s_line.push_str("</tr>");
 					stream.write(s_line.as_bytes()).unwrap();*/
 
+					stream.write("<tr><td>id</td><td>text</td><td>description</td><td>keywords</td></tr>".as_bytes()).unwrap();
 					conn.query_iter("SELECT * FROM myarttable WHERE id>14 ORDER BY id DESC").unwrap().for_each(|row| {
 						let r:(i32, String, String, String) = from_row(row.unwrap());
 						println!("{}, {}, {}, {}", r.0, r.1, r.2, r.3);
