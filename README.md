@@ -4,8 +4,8 @@
 
 Внешний вид главного окна в браузере:
 
-![image](https://user-images.githubusercontent.com/10297748/235742584-35ac3456-08e4-4d32-a0a2-4dd8ebf96fae.png)
+![image](https://user-images.githubusercontent.com/10297748/235841056-07c656f1-6f0d-40b4-9218-988be36e1e66.png)
 
-Пример гарантированно работает при установленном компилляторе Rust (из файла rustup-init.exe, скач. на сайте https://www.rust-lang.org/tools/install) в каталог с профилем пользователя: C:\Users\[user]\.cargo
+Пример гарантированно работает при установленном компилляторе Rust (из файла rustup-init.exe, скач. на сайте https://www.rust-lang.org/tools/install) в каталог с профилем пользователя: C:\\Users\\[user]\\.cargo\\
 
 Для корректной работы с базой данных MySQL и таблицей, необходимо экспортировать схему из файла import_test.sql в каталоге с исходниками. Пример для сборки и запуска проекта есть в файле build_serv.bat
